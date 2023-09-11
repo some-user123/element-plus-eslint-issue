@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "postinstall": "nuxt prepare",
+    "lint": "eslint test.ts"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.41.0",
+    "@element-plus/nuxt": "^1.0.5",
+    "element-plus": "^2.3.12",
+    "eslint": "^8.49.0",
+    "nuxt": "^3.7.1"
+  }
+}
+
